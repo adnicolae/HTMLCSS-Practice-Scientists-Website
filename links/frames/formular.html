@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formular</title>
+</head>
+
+<body background="frame_res/batman.jpg" bgcolor=black>
+<table>
+<tr>
+<td>
+<font face="serif" color=white>
+<h3>Contactati-ne - formular Online</h3>
+<hr>
+
+<form>
+<font color=red>*</font>Tipul mesajului:<br>
+<br>
+<input type="radio" name="feedback" value="feedback">Feedback<br>
+<input type="radio" name="info" value="info">Mai multe informatii<br>
+<hr>
+
+
+<font color=red>*</font>Selectati cui doriti sa adresati comentariul:
+<br>
+<br>
+
+<input type="radio" name="admin">Administrator<br>
+<input type="radio" name="manag">Manager<br>
+<input type="radio" name="cons">Consultant<br>
+<input type="radio" name="biblio">Bibliotecar<br>
+<hr>
+
+
+Detaliile de contact:<br>
+<br>
+<table>
+<tr>
+<td><font color=red>*</font>Nume:</td> 
+<td><input type="text" name="nume"></td>
+</tr>
+<tr>
+<td><font color=red>*</font>Adresa Email:</td> 
+<td><input type="text" name="mail"></td>
+</tr>
+<tr>
+<td>Adresa:</td>
+<td><input type="text" name="adress"></td>
+</tr>
+<tr>
+<td>Localitate / Oras:</td>
+<td> <input type="text" name="oras"></td>
+</tr>
+<tr>
+<td>Cod postal:</td>
+<td> <input type="text" name="postal"></td>
+</tr>
+<tr>
+<td>Tara:</td> 
+<td><select name="countries">
+<option value="Romania">Romania</option>
+<option value="Moldova">Republica Moldova</option>
+<option value="Serbia">Serbia</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Statele Unite">SUA</option>
+<option value="UK">Marea Britanie</option>
+<option value="China">China</option>
+<option value="Germania">Germania</option>
+<option value="Rusia">Rusia</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Comentariul:</td>
+</tr>
+</table>
+<textarea rows="3" cols="30">
+Inserati comentariul aici...
+</textarea> 
+<br>
+
+<input type="submit" value="Trimite">
+<input type="reset" value="Sterge"><br>
+</td>
+
+<td>
+<br><br><br><br>
+</td>
+</table>
+
+
+</form>
+</font>
+</body>
+</html>
