@@ -1,2 +1,2 @@
-Change - HTML Website about different personalities
+Change - HTML Website about different personalities that changed the world
 ======
