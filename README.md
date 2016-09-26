@@ -1,2 +1,2 @@
-Change - HTML Website about different personalities that changed the world
+Change - High School project website to get acquinted with HTML.
 ======
